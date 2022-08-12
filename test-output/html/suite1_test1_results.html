@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="" lang="">
+<head>
+  <title>Test Results Report - module 1</title>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  <meta name="description" content="TestNG unit test results." />
+  <link href="reportng.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="reportng.js"></script>
+</head>
+<body>
+<h1>module 1</h1>
+<p>
+  Test duration: 80.790s
+</p>
+
+
+
+  <table class="resultsTable">
+    <tr><th colspan="3" class="header failed">Failed Tests</th></tr>
+          <tr>
+        <td colspan="3" class="group">TestNGDemos.sites.Forumsites</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  sqaforums
+      </td>
+  <td class="duration">
+    9.691s
+  </td>
+  <td class="result">
+        
+    
+        
+
+        <a href="javascript:toggleElement('exception-0', 'block')" title="Click to expand/collapse"><b>java.lang.AssertionError: sqaforums test is failed expected [false] but found [true]</b></a><br />
+    <div class="stackTrace" id="exception-0">
+              org.testng.Assert.fail(Assert.java:110)<br />
+              org.testng.Assert.failNotEquals(Assert.java:1413)<br />
+              org.testng.Assert.assertEqualsImpl(Assert.java:149)<br />
+              org.testng.Assert.assertEquals(Assert.java:131)<br />
+              org.testng.Assert.assertEquals(Assert.java:976)<br />
+              TestNGDemos.sites.Forumsites.sqaforums(Forumsites.java:39)<br />
+              java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+              java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.base/java.lang.reflect.Method.invoke(Method.java:566)<br />
+              org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)<br />
+              org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)<br />
+              org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)<br />
+              org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)<br />
+              org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)<br />
+              org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)<br />
+              org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)<br />
+              org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)<br />
+              java.base/java.util.ArrayList.forEach(ArrayList.java:1541)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:806)<br />
+              org.testng.TestRunner.run(TestRunner.java:601)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:433)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:330)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1176)<br />
+              org.testng.TestNG.runSuites(TestNG.java:1099)<br />
+              org.testng.TestNG.run(TestNG.java:1067)<br />
+              com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)<br />
+              com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)<br />
+                </div>
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  stackoverflow
+      </td>
+  <td class="duration">
+    0.466s
+  </td>
+  <td class="result">
+        
+    
+        
+
+        <a href="javascript:toggleElement('exception-1', 'block')" title="Click to expand/collapse"><b>org.openqa.selenium.WebDriverException: unknown error: cannot determine loading status<br/>
+from unknown error: unexpected command response<br/>
+&nbsp; (Session info: chrome=103.0.5060.114)<br/>
+Build info: version: &apos;4.2.2&apos;, revision: &apos;683ccb65d6&apos;<br/>
+System info: host: &apos;PARAMESH&apos;, ip: &apos;192.168.1.47&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.15&apos;<br/>
+Driver info: org.openqa.selenium.chrome.ChromeDriver<br/>
+Command: [2e2fc40aa360fe338827bc64060d6e2f, get {url=https://stackoverflow.com/}]<br/>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\PARAME~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:49232}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49232/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}<br/>
+Session ID: 2e2fc40aa360fe338827bc64060d6e2f</b></a><br />
+    <div class="stackTrace" id="exception-1">
+              java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)<br />
+              java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)<br />
+              java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)<br />
+              java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)<br />
+              org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)<br />
+              org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)<br />
+              org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)<br />
+              org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)<br />
+              org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)<br />
+              org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:588)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:351)<br />
+              TestNGDemos.sites.Forumsites.stackoverflow(Forumsites.java:32)<br />
+              java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+              java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.base/java.lang.reflect.Method.invoke(Method.java:566)<br />
+              org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)<br />
+              org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)<br />
+              org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)<br />
+              org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)<br />
+              org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)<br />
+              org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)<br />
+              org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)<br />
+              org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)<br />
+              java.base/java.util.ArrayList.forEach(ArrayList.java:1541)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:806)<br />
+              org.testng.TestRunner.run(TestRunner.java:601)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:433)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:330)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1176)<br />
+              org.testng.TestNG.runSuites(TestNG.java:1099)<br />
+              org.testng.TestNG.run(TestNG.java:1067)<br />
+              com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)<br />
+              com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)<br />
+                </div>
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">TestNGDemos.sites.TutorialSites</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  tutorialsPoint
+      </td>
+  <td class="duration">
+    0.709s
+  </td>
+  <td class="result">
+        
+    
+        
+
+        <a href="javascript:toggleElement('exception-2', 'block')" title="Click to expand/collapse"><b>org.openqa.selenium.WebDriverException: unknown error: cannot determine loading status<br/>
+from unknown error: unexpected command response<br/>
+&nbsp; (Session info: chrome=103.0.5060.114)<br/>
+Build info: version: &apos;4.2.2&apos;, revision: &apos;683ccb65d6&apos;<br/>
+System info: host: &apos;PARAMESH&apos;, ip: &apos;192.168.1.47&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.15&apos;<br/>
+Driver info: org.openqa.selenium.chrome.ChromeDriver<br/>
+Command: [2467969cd3bd348cf7b021c947481186, get {url=https://www.tutorialspoint.com/}]<br/>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\PARAME~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51015}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51015/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}<br/>
+Session ID: 2467969cd3bd348cf7b021c947481186</b></a><br />
+    <div class="stackTrace" id="exception-2">
+              java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)<br />
+              java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)<br />
+              java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)<br />
+              java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)<br />
+              org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)<br />
+              org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)<br />
+              org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)<br />
+              org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)<br />
+              org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)<br />
+              org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:588)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:351)<br />
+              TestNGDemos.sites.TutorialSites.tutorialsPoint(TutorialSites.java:30)<br />
+              java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+              java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.base/java.lang.reflect.Method.invoke(Method.java:566)<br />
+              org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)<br />
+              org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)<br />
+              org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)<br />
+              org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)<br />
+              org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)<br />
+              org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)<br />
+              org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)<br />
+              org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)<br />
+              java.base/java.util.ArrayList.forEach(ArrayList.java:1541)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:806)<br />
+              org.testng.TestRunner.run(TestRunner.java:601)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:433)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:330)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1176)<br />
+              org.testng.TestNG.runSuites(TestNG.java:1099)<br />
+              org.testng.TestNG.run(TestNG.java:1067)<br />
+              com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)<br />
+              com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)<br />
+                </div>
+      </td>
+</tr>
+      </table>
+
+
+  <table class="resultsTable">
+    <tr><th colspan="3" class="header passed">Passed Tests</th></tr>
+          <tr>
+        <td colspan="3" class="group">TestNGDemos.sites.Forumsites</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  groupsGoogle
+      </td>
+  <td class="duration">
+    4.427s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  w3schools
+      </td>
+  <td class="duration">
+    3.748s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">TestNGDemos.sites.TutorialSites</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  javatpoint
+      </td>
+  <td class="duration">
+    28.858s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  scriptinglogic
+      </td>
+  <td class="duration">
+    4.202s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  w3schools
+      </td>
+  <td class="duration">
+    12.705s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+      </table>
+  
+</body>
+</html>

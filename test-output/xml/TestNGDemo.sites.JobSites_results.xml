@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="module 2"
+           tests="4"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="7.222">
+  <properties />
+  
+  
+            <testcase name="timesjob" time="0.448" classname="TestNGDemos.sites.JobSites" />
+                <testcase name="shine" time="1.055" classname="TestNGDemos.sites.JobSites" />
+                <testcase name="monster" time="4.145" classname="TestNGDemos.sites.JobSites" />
+                <testcase name="naukri" time="1.574" classname="TestNGDemos.sites.JobSites" />
+      
+</testsuite>
